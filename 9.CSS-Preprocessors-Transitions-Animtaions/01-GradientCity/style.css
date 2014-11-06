@@ -1,0 +1,193 @@
+body, header, nav, h1, ul, li, section, article, h2, div, footer, h3, a, div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  min-height: 100%; }
+  html body {
+    min-height: 100%;
+    font-family: tahoma, sans-serif;
+    text-align: center;
+    background: linear-gradient(gray, white);
+    background-color: gray;
+    /* fallback/image non-cover color */ }
+    html body div#wrapper {
+      color: gray;
+      background-color: white;
+      border: 4px double gray;
+      width: 66%;
+      height: 100%;
+      margin: 0 auto;
+      padding: 20px; }
+      html body div#wrapper header {
+        border: 4px double gray;
+        padding: 10px;
+        margin-bottom: 15px; }
+        html body div#wrapper header nav {
+          margin-top: 10px; }
+          html body div#wrapper header nav ul {
+            list-style-type: none; }
+            html body div#wrapper header nav ul li {
+              width: 100px;
+              height: 40px;
+              display: inline-block;
+              border: 4px double gray;
+              margin: 0 25px; }
+              html body div#wrapper header nav ul li a {
+                font-size: 0.9em;
+                text-decoration: none;
+                color: gray;
+                text-align: center;
+                padding: 7px 18px;
+                vertical-align: sub; }
+                html body div#wrapper header nav ul li a:hover {
+                  background: linear-gradient(gray, white);
+                  background-color: gray;
+                  /* fallback/image non-cover color */
+                  color: white; }
+              html body div#wrapper header nav ul li:last-of-type a {
+                padding: 7px 16px; }
+      html body div#wrapper section {
+        border: 4px double gray;
+        padding: 10px;
+        margin-bottom: 10px; }
+        html body div#wrapper section header {
+          border: none; }
+        html body div#wrapper section h1 {
+          font-size: 1.2em;
+          font-weight: lighter;
+          text-decoration: underline; }
+        html body div#wrapper section h2 {
+          font-size: 0.9em;
+          font-weight: lighter; }
+        html body div#wrapper section article {
+          border: 1px solid gray;
+          margin-bottom: 5px; }
+          html body div#wrapper section article div.innerContainer {
+            margin-bottom: 15px;
+            margin-right: 8px; }
+            html body div#wrapper section article div.innerContainer div {
+              display: inline-block;
+              width: 125px;
+              height: 125px;
+              border-radius: 15px;
+              margin-right: -5px; }
+        html body div#wrapper section.linear article:nth-of-type(1) div.innerContainer div.purple {
+          background: linear-gradient(#330433, white);
+          background-color: #330433;
+          /* fallback/image non-cover color */ }
+        html body div#wrapper section.linear article:nth-of-type(1) div.innerContainer div.blue {
+          background: linear-gradient(#0303b0, white);
+          background-color: #0303b0;
+          /* fallback/image non-cover color */ }
+        html body div#wrapper section.linear article:nth-of-type(1) div.innerContainer div.green {
+          background: linear-gradient(#043304, white);
+          background-color: #043304;
+          /* fallback/image non-cover color */ }
+        html body div#wrapper section.linear article:nth-of-type(1) div.innerContainer div.yellow {
+          background: linear-gradient(yellow, white);
+          background-color: yellow;
+          /* fallback/image non-cover color */ }
+        html body div#wrapper section.linear article:nth-of-type(1) div.innerContainer div.orange {
+          background: linear-gradient(orange, white);
+          background-color: orange;
+          /* fallback/image non-cover color */ }
+        html body div#wrapper section.linear article:nth-of-type(1) div.innerContainer div.red {
+          background: linear-gradient(red, white);
+          background-color: red;
+          /* fallback/image non-cover color */ }
+        html body div#wrapper section.linear article:nth-of-type(2) div.innerContainer div.purple {
+          background-color: #330433;
+          /* fallback/image non-cover color */
+          background: linear-gradient(to right, #330433, white); }
+        html body div#wrapper section.linear article:nth-of-type(2) div.innerContainer div.blue {
+          background-color: #0303b0;
+          /* fallback/image non-cover color */
+          background: linear-gradient(to right, #0303b0, white); }
+        html body div#wrapper section.linear article:nth-of-type(2) div.innerContainer div.green {
+          background-color: #043304;
+          /* fallback/image non-cover color */
+          background: linear-gradient(to right, #043304, white); }
+        html body div#wrapper section.linear article:nth-of-type(2) div.innerContainer div.yellow {
+          background-color: yellow;
+          /* fallback/image non-cover color */
+          background: linear-gradient(to right, yellow, white); }
+        html body div#wrapper section.linear article:nth-of-type(2) div.innerContainer div.orange {
+          background-color: orange;
+          /* fallback/image non-cover color */
+          background: linear-gradient(to right, orange, white); }
+        html body div#wrapper section.linear article:nth-of-type(2) div.innerContainer div.red {
+          background-color: red;
+          /* fallback/image non-cover color */
+          background: linear-gradient(to right, red, white); }
+        html body div#wrapper section.linear article:nth-of-type(3) div.innerContainer div.purple {
+          background: linear-gradient(to bottom right, #330433, white);
+          background-color: #330433;
+          /* fallback/image non-cover color */ }
+        html body div#wrapper section.linear article:nth-of-type(3) div.innerContainer div.blue {
+          background: linear-gradient(to bottom right, #0303b0, white);
+          background-color: #0303b0;
+          /* fallback/image non-cover color */ }
+        html body div#wrapper section.linear article:nth-of-type(3) div.innerContainer div.green {
+          background: linear-gradient(to bottom right, #043304, white);
+          background-color: #043304;
+          /* fallback/image non-cover color */ }
+        html body div#wrapper section.linear article:nth-of-type(3) div.innerContainer div.yellow {
+          background: linear-gradient(to bottom right, yellow, white);
+          background-color: yellow;
+          /* fallback/image non-cover color */ }
+        html body div#wrapper section.linear article:nth-of-type(3) div.innerContainer div.orange {
+          background: linear-gradient(to bottom right, orange, white);
+          background-color: orange;
+          /* fallback/image non-cover color */ }
+        html body div#wrapper section.linear article:nth-of-type(3) div.innerContainer div.red {
+          background: linear-gradient(to bottom right, red, white);
+          background-color: red;
+          /* fallback/image non-cover color */ }
+        html body div#wrapper section.radial article div.innerContainer {
+          padding: 15px 0 15px 15px;
+          margin-bottom: 0;
+          margin-right: 20px; }
+          html body div#wrapper section.radial article div.innerContainer div.purple {
+            background: radial-gradient(circle, #330433, white);
+            background-color: #330433;
+            /* fallback/image non-cover color */ }
+          html body div#wrapper section.radial article div.innerContainer div.blue {
+            background: radial-gradient(circle, #0303b0, white);
+            background-color: #0303b0;
+            /* fallback/image non-cover color */ }
+          html body div#wrapper section.radial article div.innerContainer div.green {
+            background: radial-gradient(circle, #043304, white);
+            background-color: #043304;
+            /* fallback/image non-cover color */ }
+          html body div#wrapper section.radial article div.innerContainer div.yellow {
+            background: radial-gradient(circle, yellow, white);
+            background-color: yellow;
+            /* fallback/image non-cover color */ }
+          html body div#wrapper section.radial article div.innerContainer div.orange {
+            background: radial-gradient(circle, orange, white);
+            background-color: orange;
+            /* fallback/image non-cover color */ }
+          html body div#wrapper section.radial article div.innerContainer div.red {
+            background: radial-gradient(circle, red, white);
+            background-color: red;
+            /* fallback/image non-cover color */ }
+      html body div#wrapper footer {
+        border: 4px double gray;
+        padding: 10px; }
+        html body div#wrapper footer h3 {
+          font-size: 1.2em;
+          font-weight: lighter;
+          text-decoration: underline;
+          margin-bottom: 15px; }
+        html body div#wrapper footer ul {
+          list-style-type: none; }
+          html body div#wrapper footer ul li {
+            padding: 5px; }
+          html body div#wrapper footer ul a {
+            color: gray;
+            font-size: 0.9em;
+            text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

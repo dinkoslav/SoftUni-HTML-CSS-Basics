@@ -1,0 +1,106 @@
+body {
+    font-family: Arial;
+}
+section{
+    width: 472px;
+    height: 210px;
+    background-color: #EEEEEE;
+    margin: 0 auto;
+    padding: 9px;
+}
+h1{
+    color: #123659;
+    margin:0;
+    font-size: 17px;
+}
+p{
+    font-size: 9px;
+    color: #A0A0A0;
+}
+form#register h2{
+    color: #7C7C7C;
+    margin:10px 5px 0 2px;
+    font-size: 12px;
+    float: left;
+}
+form#register p{
+    color: #516B84;
+    margin: 10px 0 0 0;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: bold;
+}
+form{
+    float:left;
+    width:225px;
+    height: 160px;
+}
+form#register input{
+    width: 206px;
+    border: 1px solid #D5D5D5;
+    border-radius: 2px;
+    font-size: 9px;
+    line-height: 18px;
+    padding-left: 7px;
+    margin-top: 5px;
+}
+form#register input[type="submit"]{
+    width: 100px;
+    height: 20px;
+    margin-right:11px;
+    border: 2px solid #284969;
+    color: #284969;
+    font-size: 9px;
+    line-height: 15px;
+    float: right;
+    font-weight: bold;
+}
+form#login {
+    color: white;
+    background-color:#234465 ;
+    padding-left: 7px;
+}
+form#login h2 {
+    margin:10px 5px 0 2px;
+    font-size: 12px;
+}
+form#login input{
+    width: 206px;
+    border: 1px solid #D5D5D5;
+    border-radius: 2px;
+    font-size: 9px;
+    line-height: 18px;
+    padding-left: 7px;
+    margin-top: 5px;
+}
+form#login input[type="checkbox"]{
+    width: 11px;
+    height: 11px;
+    float: left;
+    margin-left: 0;
+}
+form#login p{
+    color:white;
+    float: left;
+    margin: 0;
+    line-height: 20px;
+    font-size: 8px;
+}
+form#login input[type="submit"]{
+    width: 82px;
+    height: 20px;
+    float: left;
+    margin: 5px 11px 0 60px;
+    border:2px solid #FA9A02;
+    background-color:#234465 ;
+    line-height: 15px;
+    color: white;
+    font-weight: bold;
+}
+form#login a{
+    float: right;
+    text-decoration: underline;
+    font-size: 9px;
+    margin-top: 5px;
+    margin-right: 16px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Flight Order</title>
+    <link rel="stylesheet" href="styles/FlightOrder.css">
+</head>
+<body>
+    <section>
+        <h1>FLIGHT ORDER</h1>
+        <form>
+            <div id="firstrow">
+                <em>From</em>
+                <em>To</em>
+            </div>
+            <select>
+                <option value="">enter a city</option>
+            </select>
+            <select>
+                <option value="">enter a city</option>
+            </select>
+            <div id="secondrow">
+                <input type="checkbox">
+                <em>Prefer directs</em>
+            </div>
+            <div id="thirdrow">
+                <em>Departure Date</em>
+                <em>Time Interval</em>
+            </div>
+            <input type="text" name="departure-date" placeholder="09.06.2014">
+            <input type="text" name="dfrom" placeholder="00:20">
+            <input type="text" name="dto" placeholder="05:00">
+            <div id="fourthrow">
+                <em>Return Date</em>
+                <em>Time Interval</em>
+            </div>
+            <input type="text" name="return-date" placeholder="13.06.2014">
+            <input type="text" name="rfrom" placeholder="16:00">
+            <input type="text" name="rto" placeholder="22:00">
+            <div id="fifthrow">
+                <em>12+</em>
+                <em>2-12</em>
+                <em>0-2</em>
+                <em>Choose class</em>
+            </div>
+            <input type="number" value="0">
+            <input type="number" value="0">
+            <input type="number" value="0">
+            <select>
+                <option value="">Economy</option>
+            </select>
+            <input type="submit" value="Search">
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,135 @@
+body {
+    background-color: blue;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 1090px;
+    height: 800px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+div.car {
+    display: inline-block;
+    width: 350px;
+    height: 190px;
+}
+
+img {
+    width: 350px;
+    height: 190px;
+    border: 5px solid white;
+}
+
+img:hover {
+    -webkit-animation: tremble 0.2s;
+    animation: tremble 0.2s;
+    cursor: pointer;
+}
+
+#container div.car img:active {
+    position: absolute;
+    -webkit-animation: car-rotate 2s;
+    animation: car-rotate 2s;
+    cursor: pointer;
+}
+
+@-webkit-keyframes tremble {
+    0% {
+        -webkit-transform:rotate(5deg);
+    }
+
+    25% {
+        -webkit-transform:rotate(-10deg);
+    }
+
+    50% {
+        -webkit-transform:rotate(10deg);
+    }
+
+    75% {
+        -webkit-transform:rotate(-10deg);
+    }
+
+    100% {
+        -webkit-transform:rotate(5deg);
+    }
+}
+
+
+/* Firefox */
+@keyframes tremble {
+    from {
+        transform:rotate(5deg);
+    }
+
+    25% {
+        transform:rotate(-10deg);
+    }
+
+    50% {
+        transform:rotate(10deg);
+    }
+
+    75% {
+        transform:rotate(-10deg);
+    }
+
+    100% {
+        transform:rotate(5deg);
+    }
+}
+
+<!--
+@-webkit-keyframes car-rotate {
+    0% {
+        width: 550px;
+        height: 300px;
+        left: 30%;
+        top: 10%;
+        -webkit-transform:rotate(0deg);
+    }
+
+    25% {
+        width: 550px;
+        height: 300px;
+        left: 50%;
+        top: 30%;
+        -webkit-transform:rotate(0deg);
+    }
+
+    100% {
+        width: 550px;
+        height: 300px;
+        left: 50%;
+        top: 30%;
+        -webkit-transform:rotate(360deg);
+    }
+}
+
+@keyframes car-rotate {
+    from {
+        width: 550px;
+        height: 300px;
+        left: 30%;
+        top: 10%;
+        transform:rotate(0deg);
+    }
+
+    25% {
+        width: 550px;
+        height: 300px;
+        left: 50%;
+        top: 30%;
+        transform:rotate(0deg);
+    }
+
+    100% {
+        width: 550px;
+        height: 300px;
+        left: 50%;
+        top: 30%;
+        transform:rotate(360deg);
+    }
+}

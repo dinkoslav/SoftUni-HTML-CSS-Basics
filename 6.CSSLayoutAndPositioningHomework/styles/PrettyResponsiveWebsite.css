@@ -1,0 +1,272 @@
+
+body, img, nav, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial;
+    font-size: 18px;
+}
+.clearfix:after{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+/* Header */
+header{
+    border-bottom: 1px solid #E4E4E4;
+}
+header div#slider{
+    position: relative;
+}
+header div#slider img {
+    width: 100%;
+    margin-bottom: -4px;
+}
+header div#slider h1{
+    font-size: 3vw;
+    color: white;
+    position: absolute;
+    bottom: 9%;
+    right: 7%;
+}
+header nav{
+    width: 100%;
+    background-color: #EBEBEB;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+header nav li{
+    list-style: none;
+}
+header nav li a {
+    width: 100%;
+    height: 100%;
+    color: #7B7B7D;
+    text-decoration: none;
+}
+header nav li:hover{
+    background-color: #B8B8B8;
+}
+header nav li a:hover{
+    color: white;
+}
+/* Content */
+section#content {
+    width: 94%;
+    padding: 2% 0 2% 2%;
+}
+
+section#content section#left-content>header, section#content section#left-content>div, section#content section#right-content>aside{
+    padding: 15px 15px 15px 20px;
+    border: 1px solid #EDEDED;
+    border-radius: 15px;
+    margin-bottom:15px;
+}
+section#content section#right-content aside div{
+    margin-top:15px;
+}
+section#content section#right-content aside#aside-news p{
+    margin-top:0;
+    margin-bottom: -15px;
+}
+section#content section#right-content aside#aside-messages p{
+    margin-top:0;
+    margin-bottom: 10px;
+}
+h2, h3{
+    margin-top:7px;
+}
+h2, section#content section#right-content aside a{
+    color: #84B900;
+}
+aside#aside-news{
+    background-color: #EEEEEE;
+}
+/* Footer */
+footer{
+    background: #a3d844;
+    background: -moz-linear-gradient(top,  #a3d844 0%, #85c01a 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a3d844), color-stop(100%,#85c01a));
+    background: -webkit-linear-gradient(top,  #a3d844 0%,#85c01a 100%);
+    background: -o-linear-gradient(top,  #a3d844 0%,#85c01a 100%);
+    background: -ms-linear-gradient(top,  #a3d844 0%,#85c01a 100%);
+    background: linear-gradient(to bottom,  #a3d844 0%,#85c01a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3d844', endColorstr='#85c01a',GradientType=0 );
+    border-top: 1px solid #E4E4E4;
+}
+footer div{
+    width: 60%;
+    margin-left: 3%;
+}
+footer p {
+    font-size: 0.7em;
+    text-align: center;
+}
+
+/* Screen version */
+
+@media only screen and (min-width: 960px){
+/* Header */
+    header nav{
+        height: 45px;
+    }
+    header nav li{
+        list-style: none;
+        float: left;
+        border-right: 1px solid white;
+        padding: 13px 0;
+    }
+    header nav li a{
+        width: 100%;
+        height: 100%;
+        color: #7B7B7D;
+        text-decoration: none;
+        padding: 15px 15px;
+        font-size: 0.9em;
+    }
+
+    span.dropdown-menu{
+        display: none;
+    }
+/* Content */
+    section#content section#left-content{
+        width: 65%;
+        margin-right: 3%;
+        float: left;
+    }
+    section#content section#right-content{
+        width: 32%;
+        float: right;
+    }
+    section#content section#left-content div#articles img {
+        float:left;
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+    section#content section#left-content div#articles article div{
+        padding-top:2px;
+    }
+/* Footer */
+    footer{
+        width: 100%;
+        height: 100px;
+    }
+    footer div{
+        padding-top: 20px;
+    }
+}
+
+/* Tablet version */
+@media only screen and (min-width: 751px) and (max-width: 959px){
+/* Header */
+    header nav{
+        height: 45px;
+    }
+    header nav li{
+        list-style: none;
+        float: left;
+        border-right: 1px solid white;
+        padding: 13px 0;
+    }
+    header nav li a{
+        width: 100%;
+        height: 100%;
+        color: #7B7B7D;
+        text-decoration: none;
+        padding: 15px 15px;
+        font-size: 0.9em;
+    }
+
+    span.dropdown-menu{
+        display: none;
+    }
+/* Content */
+
+    section#content section#left-content{
+        width: 100%;
+    }
+    section#content section#right-content{
+        width: 100%;
+    }
+    section#content section#left-content div#articles img {
+        float:left;
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+    section#content section#left-content div#articles article div{
+        padding-top:2px;
+    }
+    section#content section#right-content aside#aside-news{
+        width: 42%;
+        margin-right: 4%;
+        float: left;
+    }
+    section#content section#right-content aside#aside-messages{
+        width: 42%;
+        float:right;
+    }
+
+/* Footer */
+    footer{
+        width: 100%;
+        height: 50px;
+    }
+    footer div{
+        padding-top: 5px;
+    }
+}
+/* Mobile version */
+@media only screen and (max-width: 750px){
+/* Header */
+    span.dropdown-menu{
+        display: block;
+        color: #7B7B7D;
+        text-align: center;
+        border-bottom: 1px solid white;
+        padding: 10px 0 10px 5px;
+    }
+    header nav ul li{
+        display: none;
+    }
+    header nav ul:hover > li{
+        cursor: pointer;
+        display: block;
+        text-align: center;
+        margin: 5px 0;
+    }
+/* Content */
+    h2, h3{
+        text-align: center;
+    }
+    p{
+        text-align: justify;
+    }
+    section#content section#left-content{
+        width: 100%;
+    }
+    section#content section#right-content{
+        width: 100%;
+    }
+    section#content section#left-content div#articles img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+/* Footer */
+    footer{
+        width: 100%;
+        height: 35px;
+    }
+    footer div{
+        width: 90%;
+    }
+    footer div p{
+        margin-top:2px;
+        text-align: center;
+    }
+}

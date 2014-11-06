@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>5.PowerPointSlide</title>
+    <style>
+        body {
+            background: url("Background.png");
+            font-family: Calibri;
+            padding:30px;
+        }
+        h1 {
+            color:#F3BE60;
+            font-size: 40px;
+            float:left;
+            margin-bottom: 0px;
+        }
+        img {
+            float:right;
+            width:192px;
+            height:64px;
+        }
+        ul {
+            list-style-type: square;
+            color:#F3BE60;
+            font-size: 34px;
+        }
+        ul li h2{
+            color:white;
+            font-size: 34px;
+        }
+        ul li h2 span{
+            color:#F3BE60;
+            font-size: 34px;
+        }
+        ul li div{
+            width:90%;
+            border:1px solid white;
+            margin-left:20px;
+            margin-top:20px;
+            padding-left: 10px;
+            background-color: #20201E;
+        }
+        ul li div p{
+            color:#8CF4F2;
+            font-size: 24px;
+            line-height: 2px;
+        }
+        #middle{
+            margin-left:20px;
+        }
+        .clear {
+            content:" ";
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+    <h1>Headings and Paragraphs</h1>
+    <img src="SoftUniLogo.png" alt=""/>
+    <div class="clear"></div>
+    <ul>
+        <li>
+            <h2>Heading Tags: <span>&lt;h1&gt;</span> - <span>&lt;h6&gt;</span></h2>
+                <div>
+                    <p>&lt;h1&gt;Heading 1&lt;&#47;h1&gt;</p>
+                    <p>&lt;h2&gt;Sub heading 2&lt;&#47;h2&gt;</p>
+                    <p>&lt;h3&gt;Sub heading 3&lt;&#47;h3&gt;</p>
+                </div>
+        </li>
+        <li>
+            <h2>Paragraph Tags: <span>&lt;p&gt;</span></h2>
+                <div>
+                    <p>&lt;p&gt;This is my first paragraph&lt;&#47;p&gt;</p>
+                    <p>&lt;p&gt;This is my second paragraph&lt;&#47;p&gt;</p>
+                </div>
+        </li>
+        <li>
+            <h2>Sections: <span>&lt;div&gt;</span> and <span>&lt;span&gt;</span></h2>
+                <div>
+                    <p>&lt;div style:"background: skyblue;"&gt;</p>
+                    <p id="middle">This is a div</p>
+                    <p>&lt;&#47;div&gt;</p>
+                </div>
+        </li>
+    </ul>
+</body>
+</html>
